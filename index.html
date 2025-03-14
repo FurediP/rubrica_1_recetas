@@ -1,4 +1,147 @@
 <!DOCTYPE html>
 <html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetario Colombiano</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .recipe {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .recipe img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "🍽️ ";
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mis Recetas</h1>
+
+        <div class="recipe">
+            <h2>Bandeja Paisa</h2>
+            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/7ZLBIEXDAFEUFB2MXROVEX2DHI.jpg" alt="Bandeja Paisa">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>1 taza de arroz blanco</li>
+                <li>1 taza de frijoles rojos</li>
+                <li>1 huevo frito</li>
+                <li>1 plátano maduro</li>
+                <li>Chicharrón</li>
+                <li>1 arepa</li>
+                <li>Carne molida</li>
+            </ul>
+            <h3>Preparación:</h3>
+            <p>1. Cocina el arroz y los frijoles por separado.</p>
+            <p>2. Fríe el chicharrón y el plátano maduro.</p>
+            <p>3. Cocina la carne molida con especias.</p>
+            <p>4. Sirve todo en un plato acompañado de un huevo frito y una arepa.</p>
+        </div>
+
+        <div class="recipe">
+            <h2>Ajiaco Santafereño</h2>
+            <img src="https://img-global.cpcdn.com/recipes/7e9561ebcd80ac0b/1200x630cq70/photo.jpg" alt="Ajiaco Santafereño">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>3 pechugas de pollo</li>
+                <li>3 tipos de papa (criolla, pastusa, sabanera)</li>
+                <li>1 mazorca de maíz</li>
+                <li>Guascas</li>
+                <li>Crema de leche</li>
+                <li>Alcaparras</li>
+            </ul>
+            <h3>Preparación:</h3>
+            <p>1. Cocina el pollo en agua con sal hasta que esté tierno.</p>
+            <p>2. Agrega las papas en rodajas y cocina hasta que espesen.</p>
+            <p>3. Añade las guascas y la mazorca.</p>
+            <p>4. Sirve con crema de leche y alcaparras al gusto.</p>
+        </div>
+        <div class="recipe">
+            <h2>Empanadas</h2>
+            <img src="https://www.elespectador.com/resizer/-V8Vt7vSho4xhtWnDewlnsDbZDU=/arc-anglerfish-arc2-prod-elespectador/public/2EFJ2P7JPVGURJLT7QLCSD6P74.png" alt="Empanadas Colombianas">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>2 tazas de harina de maíz</li>
+                <li>500g de carne molida</li>
+                <li>2 papas grandes</li>
+                <li>1 cebolla</li>
+                <li>Aceite para freír</li>
+                <li>Sal y especias</li>
+            </ul>
+            <h3>Preparación:</h3>
+            <p>1. Cocina las papas y tritúralas.</p>
+            <p>2. Sofríe la carne con cebolla y especias.</p>
+            <p>3. Mezcla la harina con agua y forma discos de masa.</p>
+            <p>4. Rellena con carne y papas, sella y fríe en aceite caliente.</p>
+        </div>
+        <div class="recipe">
+            <h2>Lechona</h2>
+            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/WVRCP5K2JRDNDNO5Q4HMESICN4.jpg" alt="Lechona Tolimense">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>1kg de carne de cerdo</li>
+                <li>500g de arroz</li>
+                <li>Guiso de cebolla, ajo y tomate</li>
+                <li>Hojas de plátano</li>
+                <li>Sal y pimienta</li>
+            </ul>
+            <h3>Preparación:</h3>
+            <p>1. Cocina el arroz con el guiso.</p>
+            <p>2. Mezcla con la carne de cerdo y deja marinar.</p>
+            <p>3. Envuelve en hojas de plátano y hornea por 4 horas.</p>
+            <p>4. Sirve con arepas o insulsos.</p>
+        </div>
+
+        <div class="recipe">
+            <h2>Arepa de Huevo</h2>
+            <img src="https://comidatipica.co/wp-content/uploads/2020/04/arepa-de-huevo.jpg" alt="Arepa de Huevo">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>2 tazas de harina de maíz</li>
+                <li>1 huevo por arepa</li>
+                <li>Agua y sal</li>
+                <li>Aceite para freír</li>
+            </ul>
+            <h3>Preparación:</h3>
+            <p>1. Mezcla la harina con agua y sal hasta formar una masa.</p>
+            <p>2. Forma arepas y fríelas en aceite caliente.</p>
+            <p>3. Ábrelas con un corte, agrega un huevo y vuelve a freír.</p>
+            <p>4. Sirve caliente y disfruta.</p>
+        </div>
+       
+    </div>
+        
+</body>
 </html>
